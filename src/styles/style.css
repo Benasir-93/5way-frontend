@@ -1,0 +1,259 @@
+/* body{
+    background-image: linear-gradient(
+        240deg,
+        hsl(240deg 79% 45%) 0%,
+        hsl(258deg 62% 53%) 9%,
+        hsl(269deg 59% 61%) 18%,
+        hsl(282deg 54% 69%) 27%,
+        hsl(288deg 44% 75%) 36%,
+        hsl(238deg 34% 76%) 45%,
+        hsl(199deg 46% 68%) 55%,
+        hsl(185deg 57% 55%) 64%,
+        hsl(194deg 66% 54%) 73%,
+        hsl(211deg 76% 58%) 82%,
+        hsl(222deg 88% 59%) 91%,
+        hsl(222deg 100% 50%) 100%
+      );
+} */
+.neon {
+  color: #0907a1;
+    text-shadow:
+      0 0 5px #082fb1,
+      0 0 10px #070e70,
+      0 0 20px #160577,
+      0 0 40px rgb(85, 60, 231),
+      0 0 80px rgb(14, 27, 209),
+      0 0 90px rgb(8, 24, 75),
+      0 0 100px rgb(18, 7, 177),
+      0 0 150px rgb(26, 16, 167);
+  }
+  
+  
+/* Glassmorphism effect for offcanvas */
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 10px;
+}
+
+/* Apply glassmorphism to offcanvas header */
+.offcanvas-header {
+  background: rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+/* Apply glassmorphism to offcanvas body */
+.offcanvas-body {
+  padding: 15px;
+}
+
+/* Apply glassmorphism to close button */
+.btn-close {
+  filter: invert(1) grayscale(100%) brightness(200%);
+}
+
+/* Apply glassmorphism to toggle button */
+.navbar-toggler {
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 5px;
+}
+
+/* Optional: Add hover effect for better interaction */
+.navbar-toggler:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* Optional: Add transition for smooth effect */
+.navbar-toggler, .btn-close {
+  transition: background 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+
+/* toggle icon css */
+.custom-navbar-toggler {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color:white;
+}
+
+/* Styling for the icon inside the navbar toggler button */
+.custom-navbar-icon {
+  box-shadow: 0 0 10px #00f, 0 0 20px #00f, 0 0 40px #00f; /* Neon-like glow */
+}
+
+/* Styling for the three lines inside the icon */
+.custom-navbar-icon span {
+  /* background-color: #fff; */
+  display: block;
+  height: 2px;
+  width: 25px;
+  border-radius: 1px;
+  margin: 6px 0;
+  color:white;
+}
+.navbar .navbar-toggler-icon {
+  width: 24px; /* Adjust the width as needed */
+  height: 24px; /* Adjust the height as needed */
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' height='21' viewBox='0 0 21 21' width='21'%3e%3cg fill='none' fill-rule='evenodd' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round'%3e%3cpath d='m4.5 6.5h12' fill='white'%3e%3c/path%3e%3cpath d='m4.498 10.5h11.997' fill='white'%3e%3c/path%3e%3cpath d='m4.5 14.5h11.995' fill='white'%3e%3c/path%3e%3c/g%3e%3c/svg%3e");
+}
+.navbar-toggler {
+outline: none;}
+
+.box {
+  --mask: 
+    linear-gradient(#000 0 0) 50%/calc(100% - 37.00px) calc(100% - 37.00px) no-repeat,
+    radial-gradient(farthest-side,#000 98%,#0000) 0 0/40px 40px round;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+}
+.card-group .card {
+  margin: 0;
+}
+.nav-link:hover {
+  font-size: 1.3em; /* Adjust the font size as per your preference */
+}
+@media (max-width: 1024px) {
+  .card-text {
+    font-size: 0.9rem; /* Adjust the font size as needed */
+  }
+  .card-title {
+    font-size: 1.2rem; /* Adjust the font size as needed */
+  }
+  .btn {
+    font-size: 0.9rem; /* Adjust the font size as needed */
+    margin-top: 8px; /* Adjust the margin-top as needed for better alignment */
+  }
+}
+.card {
+  height: 250px; /* Default height for larger screens */
+  
+}
+
+.card img {
+  height: 250px; /* Default height for larger screens */
+}
+
+.model:hover {
+  transform: scale(1.03);
+}
+@media (max-width: 1024px) {
+  .card,
+  .card img {
+    height: 300px; /* Adjust the height for screens with a width of 1024px or smaller */
+  }
+}
+/* navbar syle for 565px small device screen */
+.navbar img{
+  height: 80px;
+  width: 85px;
+}
+.navbar .container-fluid{
+  height: 85px;
+}
+.navbar .font{
+font-size: 2rem;
+}
+/* Media query for 565px screen */
+@media screen and (max-width: 565px) {
+  .navbar img {
+    height: 45px; /* Adjust the height as needed for 565px screen */
+    width: 52px; /* Adjust the width as needed for 565px screen */
+  }
+
+  .navbar .container-fluid {
+    height: 45px; /* Adjust the height as needed for 565px screen */
+  }
+  .navbar .font{
+    font-size: 0.8rem;
+  }
+}
+   /* Hide the button on small screens */
+   @media screen and (max-width: 565px) {
+    .hide-on-small {
+      display: none;
+    }
+  }
+   .footer{
+    /* background-image: linear-gradient(
+      240deg,
+      hsl(240deg 79% 45%) 0%,
+      hsl(258deg 62% 53%) 9%,
+      hsl(269deg 59% 61%) 18%,
+      hsl(282deg 54% 69%) 27%,
+      hsl(288deg 44% 75%) 36%,
+      hsl(238deg 34% 76%) 45%,
+      hsl(199deg 46% 68%) 55%,
+      hsl(185deg 57% 55%) 64%,
+      hsl(194deg 66% 54%) 73%,
+      hsl(211deg 76% 58%) 82%,
+      hsl(222deg 88% 59%) 91%,
+      hsl(222deg 100% 50%) 100%
+    ); */
+    background-color:#000066;
+}
+
+   .contact{
+    height: 600px;
+   }
+   .contact img{
+    height:600px;
+   }
+
+ 
+
+   /* Media query for screens 768px and larger */
+@media screen and (min-width: 768px) {
+  .contact {
+    height: 500px; /* Adjust the height as needed for screens 768px and larger */
+  }
+  .contact img{
+    height:500px;
+   }
+}
+
+/* Media query for screens between 565px and 767px */
+@media screen and (max-width: 767px) and (min-width: 565px) {
+  .contact {
+    height: 400px; /* Adjust the height as needed for screens between 565px and 767px */
+  }
+  .contact img{
+    height:400px;
+   }
+   .contact .card-text{
+    font-size: 0.6rem;
+   }}
+   .font{
+    font-family: 'Ubuntu', sans-serif;
+
+
+   }
+   /* enquiry btn */
+   .enquiry:hover{
+    background-color:#000066;
+    color:white;
+    font-weight:bold;
+   }
+   .hr{
+    color:#000066;
+    height:20px;
+   }
+   .sec {
+    border: solid #000066;
+    border-width: 2px 0; /* 1px top and bottom */
+}
+.line{
+  background-color:#000066;
+  height:3px;
+  margin-bottom:1px;
+}
+.card-block{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* gap: 0.5rem; */
+  /* margin: 12px; */
+}
