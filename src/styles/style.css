@@ -1,20 +1,6 @@
-/* body{
-    background-image: linear-gradient(
-        240deg,
-        hsl(240deg 79% 45%) 0%,
-        hsl(258deg 62% 53%) 9%,
-        hsl(269deg 59% 61%) 18%,
-        hsl(282deg 54% 69%) 27%,
-        hsl(288deg 44% 75%) 36%,
-        hsl(238deg 34% 76%) 45%,
-        hsl(199deg 46% 68%) 55%,
-        hsl(185deg 57% 55%) 64%,
-        hsl(194deg 66% 54%) 73%,
-        hsl(211deg 76% 58%) 82%,
-        hsl(222deg 88% 59%) 91%,
-        hsl(222deg 100% 50%) 100%
-      );
-} */
+*{margin: 0; padding: 0;
+  box-sizing: border-box; }
+  
 .neon {
   color: #0907a1;
     text-shadow:
